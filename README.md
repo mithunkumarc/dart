@@ -61,3 +61,11 @@ for global session :
         //check path
         mitun@mithun-Latitude-E6230:~$ echo $PATH
        
+       
+        flutter need git:
+        sudo apt update
+        sudo apt install git
+        git --version
+        
+        //run flutter command to test
+        >>flutter 
