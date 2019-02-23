@@ -69,3 +69,5 @@ for global session :
         
         //run flutter command to test
         >>flutter 
+        
+        download android studio, add dart and flutter plugins. goto settings select plugins to search
