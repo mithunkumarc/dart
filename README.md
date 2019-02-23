@@ -32,3 +32,32 @@ for global session :
               save and exit
 
 ---
+
+#### flutter installation on ubuntu 18.04
+
+
+
+        // creating dedicatetd android folder
+        mitun@mithun-Latitude-E6230:~$ cd android
+
+        //extracting flutter to android folder
+        mitun@mithun-Latitude-E6230:~/android$ tar xf ~/Downloads/flutter_linux_v1.0.0-stable.tar.xz 
+        mitun@mithun-Latitude-E6230:~/android$ pwd
+        /home/mitun/android
+        mitun@mithun-Latitude-E6230:~/android$ cd\
+        > 
+
+        //add flutter path in bash profile
+        mitun@mithun-Latitude-E6230:~$ sudo nano ~/.bashrc
+
+
+          add this line : export PATH=/home/mitun/android/flutter/bin:$PATH
+
+          //ctrl + save, exit
+
+        //activate 
+        mitun@mithun-Latitude-E6230:~$ source /home/mitun/.bashrc
+
+        //check path
+        mitun@mithun-Latitude-E6230:~$ echo $PATH
+       
