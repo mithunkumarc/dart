@@ -12,3 +12,10 @@
           l = [];     //error
           m = {};     //error
       }
+
+#### const : var must be initialised
+      
+      const i;//error : const var must be initialized
+      
+      
+####      
