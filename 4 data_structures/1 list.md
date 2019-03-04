@@ -137,3 +137,18 @@
               [3, 4, 5, 6, 7]
               [111, 1, 2, 3]
               [1, 2, 87, 77, 67, 6]
+              
+              
+#### lists are mutable but can be made immutable using const
+
+          const list = [1,2,3] // immutable
+
+
+        //lists are mutable
+          var a = [1,2,3];
+          print(a.hashCode);
+          a.add(4);
+          print(a.hashCode);
+          print(a);
+
+        const list : immutable
