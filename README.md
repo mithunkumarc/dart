@@ -37,12 +37,6 @@ for global session :
 
 
 
----
-
-#### web development : dart with html
-
-      https://webdev.dartlang.org/guides/get-started
-
         // creating dedicatetd android folder
         mitun@mithun-Latitude-E6230:~$ cd android
 
@@ -77,3 +71,14 @@ for global session :
         >>flutter 
         
         download android studio, add dart and flutter plugins. goto settings select plugins to search
+
+
+
+
+
+---
+
+#### web development : dart with html
+
+      https://webdev.dartlang.org/guides/get-started
+
