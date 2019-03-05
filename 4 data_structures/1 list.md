@@ -4,6 +4,8 @@
               //lists are mutable
               //use const keyword to make list immutable
               List<int> list = [1,2,3];
+              var another_way_list = <int>[1,2,3];
+              
               var vlist = [1,2,3]; //equavalent to List<int>
               final flist = [1,2,3];//flist cannot point to any other list
               const clist = [1,2,3];//immutable list, closed for changes
