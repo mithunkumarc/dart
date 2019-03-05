@@ -62,8 +62,7 @@
               print([1,2,3,4,5,6,7,8].takeWhile((n) => n < 5));//output : (1, 2, 3, 4)
 
 
-              //map : support functional prog
-              //filter : use foreach
+              //map : support functional prog              
               print([1,2,3,4,5,6,7,8].map((f) => f*f));
 
 
@@ -154,3 +153,11 @@
           print(a);
 
         const list : immutable
+        
+        
+#### for filtering use where function : 
+
+      //filter ; filtered data
+        var filter_list = [1,2,3,4,5,6,7,8,9,10].where((n) => n%2 == 0);
+        print(filter_list);
+  
