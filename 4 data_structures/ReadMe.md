@@ -1,5 +1,5 @@
-list
+list : accepts duplicates
 
-set 
+set : only unique 
 
-map
+map : key value pair, key : unique
