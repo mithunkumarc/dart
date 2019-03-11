@@ -39,6 +39,8 @@
 
 #### example for nosuchmethod
 
+      nosuchmethod will be called when object calls a method on itself with method name which doesn't exists
+
       class A { 
         noSuchMethod(Invocation i) {
           return "there is no such method";
