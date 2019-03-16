@@ -4,6 +4,8 @@
 
 #### named constructor replace overloaded constructor 
 
+#### const called order is also similar to java
+
           Use a named constructor to implement multiple constructors for a class or to provide extra clarity:
 
       
