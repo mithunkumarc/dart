@@ -1,3 +1,21 @@
+#### default value of instance variables(of all datatypes) is null
+
+                class Point{
+                  int x;
+                  int y;
+                  int z;        
+                  Point(this.x,this.y); //z is skipped , so initailized with null
+
+                }
+                main(List<String> arguments) {
+                  var point = Point(2,4);
+                  print(point.x);
+                  print(point.y);
+                  print(point.z);  //null
+                }
+
+
+
 #### <ref_var>?.<property> = value,    if ref_var is not null, sets value
 
         class Point{
