@@ -1,3 +1,6 @@
+#### this example contains constructor chaining between child and parent class
+
+
 #### named constructor : used name of constructor while creating objects
 
 #### instead of using overloaded constructor , use named constructor for extra clarity
