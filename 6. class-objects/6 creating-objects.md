@@ -1,4 +1,9 @@
+
+#### Version note: The new keyword became optional in Dart 2.
+
+
 #### objects can be created with or without using new keyword
+
 #### when obj is created , mem is allocated, 
 
         class Point{
