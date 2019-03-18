@@ -18,3 +18,15 @@
           }
 
 
+#### enum values to list
+
+
+          List<colors> list =colors.values;
+          for(var color in list){
+                    print(color);
+          }
+          
+          colors.green
+          colors.red
+          colors.blue
+          colors.mixedcolor
