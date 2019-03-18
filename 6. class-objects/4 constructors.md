@@ -30,3 +30,24 @@
             return "x : "+ this.x.toString() + ", " +" y : " + this.y.toString();
           }
         }        
+
+
+#### overloaded constructor: named constructors can be used to achieve constructor overloading
+
+         class Software{
+           var version;
+           Software.asString(this.version);
+           Software.asNumber(this.version);    
+
+         }
+
+         main(List<String> args) {
+           Software s1 = new Software.asString("1.11");
+           Software s2 = new Software.asNumber(1.11);
+           print('asString ${s1.version}');
+           print('asNumber ${s2.version}');
+         }
+         
+         version : 
+         asString 1.11
+         asNumber 1.11
