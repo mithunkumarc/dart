@@ -48,6 +48,6 @@
            print('asNumber ${s2.version}');
          }
          
-         version : 
+         output : 
          asString 1.11
          asNumber 1.11
