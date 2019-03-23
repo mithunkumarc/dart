@@ -15,3 +15,27 @@ sample.dart
           print(j);
           print(k);//error : k is private
         }
+
+
+
+
+#### calculator.dart
+
+      add(){
+        print("add");
+      }
+
+      sub(){
+        print("sub");
+      }
+      
+      
+
+#### import 'calculator.dart' as calci;
+
+      import 'calculator.dart' as calci;
+      //import 'package:electronics/tv.dart';
+      main(List<String> args) {
+        calci.add();
+        calci.sub();
+      }
