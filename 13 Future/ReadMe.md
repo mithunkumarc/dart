@@ -1,4 +1,5 @@
-
+#### avoid callback : use asyc and await
+        
         const oneSecond = Duration(seconds: 1);
 
         Future<void> printWithDelay(String message) async {
@@ -13,3 +14,14 @@
         
         
         
+#### above code is equivalent to below code
+
+        const oneSecond = Duration(seconds: 1);
+        Future<void> printWithDelay(String message) {
+          return Future.delayed(oneSecond).then((_) {
+            print(message);
+          });
+        }
+        main(List<String> args) {
+          printWithDelay("hello dart");
+        }
