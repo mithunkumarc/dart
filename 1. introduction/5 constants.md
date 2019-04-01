@@ -1,4 +1,4 @@
-#### const : cannot be reinitialized
+#### const : cannot be reinitialized (implicitly final)
 
       void main(){
           const i = 10;
