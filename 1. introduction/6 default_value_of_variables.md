@@ -1,4 +1,4 @@
-#### default value of all variables
+#### default value of all variables is null, local variables too
 
 
           void main(){
